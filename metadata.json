@@ -8,7 +8,7 @@
     "tags": [
         "python"
     ],
-    "duration": 0,
+    "duration": 6,
     "prerequisites": [
         "python-print",
         "programming-integers-and-floats",
