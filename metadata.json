@@ -18,6 +18,7 @@
         "programming-floating-point-error"
     ],
     "related": [
-        "python-order-of-operations"
+        "python-order-of-operations",
+        "python-bitwise-operations"
     ]
 }
