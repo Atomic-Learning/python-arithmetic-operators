@@ -39,9 +39,9 @@ The division operator <code>/</code> divides one number by another. It performs 
 
 <py-cell>
 print(10 / 2) # Two integers produces a float
-print(7.5 / 2.5) # Two floats produces a float
-print(-9 / 3) # An integer and a float produces a float
-print(1 / 3) # Floating-pont error can occur with floats
+print(7.5 / 2) # Two floats produces a float
+print(-9 / 2.5) # An integer and a float produces a float
+print(8 / 3) # Floating-pont error can occur with floats
 </py-cell>
 
 <h2>Floor Division</h2>
@@ -51,7 +51,7 @@ The floor division operator <code>//</code> divides one number by another and ro
 <py-cell>
 print(10 // 3) # Round down
 print(6 // 2) # Exact division
-print(-7 // 3) # Rounds down to the more negative whole number
+print(-7 // 3) # Rounds negative results down to the more negative whole number
 print(7.5 // 2.5) # Works with floats too, returns an integer
 </py-cell>
 
@@ -65,12 +65,12 @@ print(7.5 % 2.5) # Two floats produce a float
 print(9 % 3.5) # An integer and a float produces a float
 </py-cell>
 
-For negative, results
+When negative numbers are involved, the result of the modulo operation takes the sign of the divisor (the second operand). For example:
 
 <py-cell>
-print(-10 % 3) # Result is positive
-print(10 % -3) # Result is negative
-print(-10 % -3) # Result is negative
+print(-10 % 3) # Result is positive (3 * -4 + 2 = -10)
+print(10 % -3) # Result is negative (-3 * -4 + -2 = 10)
+print(-10 % -3) # Result is negative (-3 * 4 + -2 = -10)
 </py-cell>
 
 <h2>Exponentiation</h2>
@@ -81,7 +81,7 @@ The exponentiation operator <code>**</code> raises one number to the power of an
 print(2 ** 3) # Two positive integers produces an integer
 print(4.0 ** 0.5) # Two floats produces a float
 print(3 ** 2.0) # An integer and a float produces a float
-print(9 ** -2) # Negative exponent produces a float
+print(9 ** -2) # Negative exponent produces a float, even if both operands are integers
 </py-cell>
 
 Some novice Python users mistakenly use the caret symbol <code>^</code> for exponentiation as this is use for exponentiation in some other contexts, but in Python this is a completely different operator. It is the bitwise XOR operator and not used for arithmetic.
