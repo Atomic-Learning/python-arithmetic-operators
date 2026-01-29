@@ -1,22 +1,23 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Python: Arithmetic Operators",
+    "slug": "python-arithmetic-operators",
+    "description": "A description of the basic arithmetic operators in Python, including addition, subtraction, multiplication, exponentiation, division, and modulo.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "python"
     ],
     "duration": 0,
     "prerequisites": [
-        "",
-        ""
+        "python-print",
+        "programming-integers-and-floats",
+        "programming-expressions",
+        "programming-division",
+        "programming-modulo",
+        "programming-floating-point-error"
     ],
     "related": [
-        "",
-        ""
+        "python-order-of-operations"
     ]
 }
