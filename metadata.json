@@ -11,6 +11,7 @@
     "duration": 6,
     "prerequisites": [
         "python-print",
+        "python-negative-numbers",
         "programming-integers-and-floats",
         "programming-expressions",
         "programming-division",
