@@ -20,6 +20,7 @@
     ],
     "related": [
         "python-order-of-operations",
-        "python-bitwise-operations"
+        "python-bitwise-operations",
+        "programming-literals"
     ]
 }
