@@ -20,7 +20,7 @@
         "programming-floating-point-error"
     ],
     "related": [
-        "python-order-of-operations",
+        "programming-operator-precedence-arithmetic",
         "python-bitwise-operations",
         "programming-literals",
         "exercise-python-sum-of-squares-range"
